@@ -1,0 +1,62 @@
+1. Overloading the * Operator:
+Create a class Matrix that represents a 2x2 matrix. Overload the * operator to multiply two matrices.
+
+Task:
+Define a Matrix class with a 2x2 array.
+
+Implement a constructor to initialize the matrix.
+
+Overload the * operator to multiply two matrices.
+
+2. Overloading the - Operator:
+Create a class Vector that represents a 3D vector. Overload the - operator to subtract one vector from another.
+
+Task:
+Define a Vector class with three data members.
+
+Implement a constructor to initialize the vector.
+
+Overload the - operator to subtract one vector from another.
+
+3. Overloading the == Operator:
+Create a class Time that represents time in hours and minutes. Overload the == operator to compare if two Time objects are equal.
+
+Task:
+Define a Time class with hours and minutes as data members.
+
+Implement a constructor to initialize the time.
+
+Overload the == operator to compare two Time objects for equality.
+
+4. Overloading the [] Operator:
+Create a class Array that represents a dynamic array. Overload the [] operator to access elements of the array.
+
+Task:
+Define an Array class with a pointer to the array and the size of the array.
+
+Implement a constructor to allocate memory for the array.
+
+Overload the [] operator to access elements of the array.
+
+5. Overloading the >> and << Operators:
+Create a class Fraction that represents a fraction (numerator and denominator). Overload the >> and << operators to input and output fractions.
+
+Task:
+Define a Fraction class with numerator and denominator as data members.
+
+Implement a constructor to initialize the fraction.
+
+Overload the >> and << operators to input and output fractions
+
+Function Overloading with Different Parameters: Write a class named Calculator that has overloaded functions for addition. The class should have the following functions:
+int add(int a, int b);
+double add(double a, double b);
+std::string add(std::string a, std::string b); Each function should return the sum of the parameters in the appropriate type.
+Operator Overloading: Create a class named ComplexNumber that represents a complex number. Implement operator overloading for the + operator to add two complex numbers. The class should have a constructor to initialize the real and imaginary parts and a method to display the complex number.
+Template Functions: Write a template function named print that can print any type of data. The function should be able to print integers, doubles, and strings. Use function templates to achieve this.
+Function Overloading with Default Parameters: Create a class named Rectangle with overloaded functions to calculate the area of a rectangle. The class should have the following functions:
+int area(int length, int width);
+double area(double length, double width = 1.0); The second function should have a default parameter for the width.
+Function Overloading with Different Return Types: Write a class named Converter that has overloaded functions to convert temperatures. The class should have the following functions:
+int toCelsius(int fahrenheit);
+double toCelsius(double fahrenheit); Each function should convert the temperature from Fahrenheit to Celsius and return the result in the appropriate type.
